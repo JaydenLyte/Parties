@@ -41,7 +41,6 @@ jobs:
             const res = await github.graphql(query, { itemId });
             const item = res.node;
             
-            // Exit if it's not an issue, has no status, or already has a milestone
             if (!item.content || !item.fieldValueByName || item.content.milestone) return;
             
             const status = item.fieldValueByName.name;
@@ -57,13 +56,28 @@ jobs:
                 direction: 'asc'
               });
               
+              let targetMilestoneNumber;
+              
               if (milestones.data.length > 0) {
-                await github.rest.issues.update({
+                targetMilestoneNumber = milestones.data[0].number;
+              } else {
+                // Lazy initialization: Create a default milestone if none exists
+                const newMilestone = await github.rest.issues.createMilestone({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  issue_number: item.content.number,
-                  milestone: milestones.data[0].number
+                  title: 'Next Release' // You can change this default name
                 });
-                console.log(`Attached Milestone to Issue #${item.content.number}`);
+                targetMilestoneNumber = newMilestone.data.number;
+                console.log('No open milestone found. Generated fallback: Next Release');
               }
+              
+              // Attach the resolved milestone to the issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: item.content.number,
+                milestone: targetMilestoneNumber
+              });
+              
+              console.log(`Attached Milestone #${targetMilestoneNumber} to Issue #${item.content.number}`);
             }
