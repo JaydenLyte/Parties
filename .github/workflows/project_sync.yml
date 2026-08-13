@@ -1,38 +1,54 @@
-name: Project Board & Label Sync
+name: Auto-Milestone on Column Change
 
 on:
-  issues:
-    types: [labeled, unlabeled, closed, reopened]
+  projects_v2_item:
+    types: [created, edited]
 
 jobs:
-  sync_issue_state:
+  assign_milestone:
     runs-on: ubuntu-latest
     steps:
-      - name: Sync Labels to Project v2 & Active Milestone
+      - name: Attach Milestone
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.PROJECT_SYNC_TOKEN }}
           script: |
-            const issue = context.payload.issue;
-            const labels = issue.labels.map(l => l.name);
-
-            // Map progress labels to target statuses
-            const labelMap = {
-              'progress: next': 'Next Release',
-              'progress: in-dev': 'In Progress',
-              'progress: testing': 'Testing'
-            };
-
-            let targetStatus = null;
-            for (const [label, status] of Object.entries(labelMap)) {
-              if (labels.includes(label)) {
-                targetStatus = status;
-                break;
+            // Get the node ID of the project item that was moved
+            const itemId = context.payload.projects_v2_item.node_id;
+            const projectId = context.payload.projects_v2_item.project_node_id;
+            
+            // Query the item's current status and associated issue number
+            const query = `
+              query($itemId: ID!) {
+                node(id: $itemId) {
+                  ... on ProjectV2Item {
+                    content {
+                      ... on Issue {
+                        number
+                        milestone { id }
+                      }
+                    }
+                    fieldValueByName(name: "Status") {
+                      ... on ProjectV2ItemFieldSingleSelectValue {
+                        name
+                      }
+                    }
+                  }
+                }
               }
-            }
-
-            // 1. Assign to active open milestone if moving into release pipeline
-            if (targetStatus && !issue.milestone) {
+            `;
+            
+            const res = await github.graphql(query, { itemId });
+            const item = res.node;
+            
+            // Exit if it's not an issue, has no status, or already has a milestone
+            if (!item.content || !item.fieldValueByName || item.content.milestone) return;
+            
+            const status = item.fieldValueByName.name;
+            const activeStatuses = ['Next Release', 'In Progress', 'Testing'];
+            
+            if (activeStatuses.includes(status)) {
+              // Fetch the active open milestone
               const milestones = await github.rest.issues.listMilestones({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -40,83 +56,14 @@ jobs:
                 sort: 'due_on',
                 direction: 'asc'
               });
-
+              
               if (milestones.data.length > 0) {
                 await github.rest.issues.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
-                  issue_number: issue.number,
+                  issue_number: item.content.number,
                   milestone: milestones.data[0].number
                 });
-                console.log(`Assigned Issue #${issue.number} to Milestone: ${milestones.data[0].title}`);
-              }
-            }
-
-            // 2. Query Projects v2 Item ID & Status Option ID via GraphQL
-            if (targetStatus) {
-              const query = `
-                query($owner: String!, $repo: String!, $number: Int!) {
-                  repository(owner: $owner, name: $repo) {
-                    issue(number: $number) {
-                      projectItems(first: 5) {
-                        nodes {
-                          id
-                          project {
-                            id
-                            field(name: "Status") {
-                              ... on ProjectV2SingleSelectField {
-                                id
-                                options {
-                                  id
-                                  name
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              `;
-
-              const variables = {
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                number: issue.number
-              };
-
-              const res = await github.graphql(query, variables);
-              const projectItem = res.repository.issue.projectItems.nodes[0];
-
-              if (projectItem) {
-                const statusField = projectItem.project.field;
-                const targetOption = statusField.options.find(opt => opt.name === targetStatus);
-
-                if (targetOption) {
-                  const mutateQuery = `
-                    mutation($projectId: ID!, $itemId: ID!, $fieldId: ID!, $optionId: String!) {
-                      updateProjectV2ItemFieldValue(
-                        input: {
-                          projectId: $projectId
-                          itemId: $itemId
-                          fieldId: $fieldId
-                          value: { singleSelectOptionId: $optionId }
-                        }
-                      ) {
-                        projectV2Item { id }
-                      }
-                    }
-                  `;
-
-                  await github.graphql(mutateQuery, {
-                    projectId: projectItem.project.id,
-                    itemId: projectItem.id,
-                    fieldId: statusField.id,
-                    optionId: targetOption.id
-                  });
-
-                  console.log(`Updated Issue #${issue.number} Project Status to: ${targetStatus}`);
-                }
+                console.log(`Attached Milestone to Issue #${item.content.number}`);
               }
             }
