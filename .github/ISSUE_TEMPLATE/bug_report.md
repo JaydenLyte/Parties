@@ -1,14 +1,10 @@
 ---
-name: Bug Report / Request
-about: Report a bug, suggest a feature, or request mod compatibility
+name: Bug Report
+about: Report a bug or mod compatibility issues
 title: "[Issue]: "
 ---
 
-> While not required, please use this template if possible. Using it helps diagnose problems much faster and speeds up fixes!
-
----
-
-**Type:** Bug Report | Feature Request | Mod Compatibility Request  
+**Type:** Bug Report  
 **Minecraft Version:** 1.20.1  
 **Mod Version:** 1.20.1-2.0.0  
 **Relevant / Conflicting Mods:** (e.g., JEI, Rubidium, Create)
@@ -17,8 +13,6 @@ title: "[Issue]: "
 Write a clear and concise summary of the issue or suggestion.
 
 ---
-
-*(The sections below primarily apply to bug reports and mod compatibility issues)*
 
 ### Steps to Reproduce
 1. Go to '...'
