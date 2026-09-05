@@ -1,10 +1,10 @@
 ---
 name: Bug Report
-about: Report a bug or mod compatibility issues
-title: "[Issue]: "
+about: Report a bug or mod compatibility issue
+title: ""
+labels: "type: bug"
 ---
 
-**Type:** Bug Report  
 **Minecraft Version:** 1.20.1  
 **Mod Version:** 1.20.1-2.0.0  
 **Relevant / Conflicting Mods:** (e.g., JEI, Rubidium, Create)
