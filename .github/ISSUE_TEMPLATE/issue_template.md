@@ -1,26 +1,36 @@
-> Here's an issue template to use for creating issues or feature suggestions. While not required, please use it if possible. I appreciate the support of wanting to create a better experience for everyone and the use of this template will help speed things up.
+---
+name: Bug Report / Request
+about: Report a bug, suggest a feature, or request mod compatibility
+title: "[Issue]: "
+---
+
+> While not required, please use this template if possible. Using it helps diagnose problems much faster and speeds up fixes!
 
 ---
 
-**Type:** Issue | Feature Request | Mod Support Request  
+**Type:** Bug Report | Feature Request | Mod Compatibility Request  
+**Minecraft Version:** 1.20.1  
 **Mod Version:** 1.20.1-2.0.0  
-**Relevant Mods:** A Specific Mod, Specific Mod #2
+**Relevant / Conflicting Mods:** (e.g., JEI, Rubidium, Create)
 
 ### Description
-Write a clear and concise summary of the issue or feature request.
+Write a clear and concise summary of the issue or suggestion.
 
-(NOTE: The following only applies to issue submissions...)
+---
+
+*(The sections below primarily apply to bug reports and mod compatibility issues)*
 
 ### Steps to Reproduce
 1. Go to '...'
-2. Click on '....'
-3. Specify the resulting error. (Can be more steps, too - the more precise the better!)
+2. Interact with / execute '...'
+3. Observe the unintended behavior or error.
 
 ### Expected vs. Actual Behavior
-* **Expected:** A description of what the you believe the intended behavior is meant to be.
-* **Actual:** A description
+* **Expected:** What should happen under normal gameplay.
+* **Actual:** What actually happens.
 
-### Logs / Stack Trace
+### Logs / Crash Reports
+> Please use paste sites like [mclo.gs](https://mclo.gs/) or [Pastebin](https://pastebin.com/) for large logs, or paste relevant stack traces below:
+
 ```text
-Paste latest.log or crash report snippets here, if available.
-```
+Paste latest.log, debug.log, or crash-report snippets here.
