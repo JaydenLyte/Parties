@@ -102,7 +102,7 @@ The following commands are available from the mod:
   <tbody>
     <tr>
       <td><code>/parties invite</code></td>
-      <td></td>
+      <td>Sends a party invite to a player. Invites expire after 60 seconds.</td>
     </tr>
     <tr>
       <td><code>/parties accept</code></td>
