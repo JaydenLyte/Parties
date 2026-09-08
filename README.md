@@ -406,6 +406,8 @@ Parties has a ton of customization options, ranging from an extensive layout edi
 </table>
 </details>
 
+---
+
 ### Compatibility Module Configuration
 Parties is a mod that integrates with other mods at its core, so these integrations will always be expanded upon. Since you can't guarantee that an integration that works today will work tomorrow, all of these integrations have been made modular. The following integrations are found in `minecraft_root/config/parties/modules.properties` and are as follows:
 
