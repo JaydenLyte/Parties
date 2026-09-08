@@ -8,7 +8,7 @@
 ![Loader](https://img.shields.io/badge/Loader-Forge-orange?style=flat&color=f16436)
 ![Environment](https://img.shields.io/badge/Side-Client%20%26%20Server-blue?style=flat)
 
-[![GitHub Issues](https://img.shields.io/badge/Issues-GitHub-238636?logo=github&logoColor=white)](https://github.com/JaydenLyte/Parties/issues)
+[![GitHub Issues](https://img.shields.io/badge/Github-Issues-238636?logo=github&logoColor=white)](https://github.com/JaydenLyte/Parties/issues)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red)
 
 ---
