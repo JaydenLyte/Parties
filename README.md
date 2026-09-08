@@ -228,7 +228,9 @@ Older versions of this mod had a different subset of mod compatibility. Starting
     <tr>
       <td><code>Iron's Spells n' Spellbooks</code></td>
       <td>~v1.20.1-3.4.0.9+</td>
-      <td>A Cast Bar element, a Mana Bar element, summon, spells, and projectile spell integration for friendly fire prevention.</td>
+      <td><p>A Cast Bar element, a Mana Bar element, summon, spells, and projectile spell integration for friendly fire prevention.</p>
+      <p>Note: If playing earlier versions of Iron's Spells, you should change <code>resolveIronsSummons</code> to <code>false</code> inside <code>minecraft_root/config/parties/lytecore-common.toml</code>, even if the mod prevents a crash anyway.</p>
+      </td>
       <td>🟢</td>
     </tr>
     <tr>
