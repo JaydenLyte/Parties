@@ -15,10 +15,10 @@
 
 NOTE: Since v2.0.0, this mod bundles the LyteCore library and Parties: Dynamics. 
 
-The Parties mod introduces a party system built to integrate smoothly with other mods for a unified solo or multiplayer 
-RPG experience. It updates vanilla and modded mechanics to improve group dynamics, includes a highly customizable Team 
-UI, and is built with a minimal footprint to keep your game smooth. Nearly everything added can be tweaked or turned 
-off completely, all detailed below.
+Parties brings a full party system and customizable HUD to your world, built to make both solo and co-op gameplay a lot more fun.
+It tweaks some vanilla mechanics and hooks into other mods so team play actually feels smooth and connected.
+Best of all, just about everything can be tweaked to your liking, including building and sharing your own custom UI layouts with friends.
+Read on for all the details!
 
 ---
 
