@@ -1,6 +1,6 @@
 ---
 title: "Parties Mod - Configuration Guide"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-midnight
 ---
 
 <p align="center">
@@ -12,7 +12,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 70%; padding-right: 16px;">
-      <img src="/img/config_numbered.png" alt="HUD Preview" width="100%" />
+      <img src="./img/config_numbered.png" alt="HUD Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>Layout Editor</h3>
@@ -30,7 +30,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>1</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/layout_1.png" alt="Layout 1" width="250" />
+        <img src="./img/layout_1.png" alt="Layout 1" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>Editor File Menu</h3>
@@ -43,14 +43,14 @@ Parties has a ton of customization options, ranging from an extensive layout edi
           <li><span style="color: #218921;"><strong>Export to Clipboard:</strong></span> Compiles the current layout into a data string and copies it to your clipboard for rapid sharing.</li>
         </ul>
         <p>The menu can also be clicked on to minimize the buttons and reduce footprint, as shown below:</p>
-        <img src="/img/layout_1-1.png" alt="Layout 1" width="150" />
+        <img src="./img/layout_1-1.png" alt="Layout 1" width="150" />
       </td>
     </tr>
     <!-- Row 2 -->
     <tr>
       <td align="center" valign="middle" width="10%"><h2>2</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/layout_2.png" alt="Layout 2" width="350" />
+        <img src="./img/layout_2.png" alt="Layout 2" width="350" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>Party UI Display</h3>
@@ -63,7 +63,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>3</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/layout_3.png" alt="Layout 3" width="250" />
+        <img src="./img/layout_3.png" alt="Layout 3" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
        <h3>Stage View Settings</h3>
@@ -82,7 +82,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>4</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/layout_4.png" alt="Layout 4" width="250" />
+        <img src="./img/layout_4.png" alt="Layout 4" width="250" />
       </td>
      <td align="left" valign="middle" width="60%">
   <h3>Element List</h3>
@@ -115,7 +115,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>5</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/layout_5.png" alt="Layout 5" width="250" />
+        <img src="./img/layout_5.png" alt="Layout 5" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>Element Settings</h3>
@@ -138,7 +138,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 70%; padding-right: 16px;">
-      <img src="/img/hud_editor.png" alt="HUD Editor Preview" width="100%" />
+      <img src="./img/hud_editor.png" alt="HUD Editor Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>HUD Editor</h3>
@@ -156,7 +156,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>1</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/hud_1.png" alt="HUD Component 1" width="250" />
+        <img src="./img/hud_1.png" alt="HUD Component 1" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>UI Frames</h3>
@@ -168,7 +168,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>2</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/hud_2.png" alt="HUD Component 2" width="250" />
+        <img src="./img/hud_2.png" alt="HUD Component 2" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>Hud Editor Menu</h3>
@@ -184,7 +184,7 @@ Parties has a ton of customization options, ranging from an extensive layout edi
     <tr>
       <td align="center" valign="middle" width="10%"><h2>3</h2></td>
       <td align="center" valign="middle" width="30%">
-        <img src="/img/hud_3.png" alt="HUD Component 3" width="250" />
+        <img src="./img/hud_3.png" alt="HUD Component 3" width="250" />
       </td>
       <td align="left" valign="middle" width="60%">
         <h3>HUD Frame Configuration Menu</h3>
