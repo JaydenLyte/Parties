@@ -1,8 +1,3 @@
----
-title: "Parties Mod - Description"
-theme: jekyll-theme-midnight
----
-
 <p align="center">
   <img src="./img/main_logo.png" alt="Project Banner" width="100%" />
 </p>
