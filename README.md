@@ -37,7 +37,7 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 45%; padding-right: 16px;">
-      <img src="../img/feature_ui.gif" alt="HUD Preview" width="100%" />
+      <img src="./img/feature_ui.gif" alt="HUD Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>Extensive HUD Overlay</h3>
@@ -57,12 +57,12 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
         They can also be disabled if preferring a more minimalist look or emphasis on specific elements.
       </p>
       <p>
-        <img src="../img/feature_minimal.png" alt="Minimal Preview" width="128" align="left" hspace="12" style="margin-right: 12px;" />
+        <img src="./img/feature_minimal.png" alt="Minimal Preview" width="128" align="left" hspace="12" style="margin-right: 12px;" />
         The customized layout can be exported as a file or a string of characters to share with others!
       </p>
     </td>
     <td style="border: none; vertical-align: top; width: 45%; padding-left: 16px;" width="45%" valign="top">
-      <img src="../img/feature_editor.gif" alt="HUD Preview" width="100%" />
+      <img src="./img/feature_editor.gif" alt="HUD Preview" width="100%" />
     </td>
   </tr>
 </table>
@@ -70,7 +70,7 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 45%; padding-right: 16px;">
-      <img src="../img/feature_layout.gif" alt="HUD Preview" width="100%" />
+      <img src="./img/feature_layout.gif" alt="HUD Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>Full-Fledged Display Configuration</h3>
@@ -90,7 +90,7 @@ Parties: Dynamics is a bundled add-on focused on non-UI party infrastructure mec
 ---
 
 <p align="center">
-  <img src="img/title_commands.png" alt="Commands & Setup" width="100%" />
+  <img src="./img/title_commands.png" alt="Commands & Setup" width="100%" />
 </p>
 
 ### Commands
@@ -210,7 +210,7 @@ All the configuration options are housed within the `minecraft_root/config/parti
 Parties has a ton of customization options, ranging from an extensive layout editor to complete control on what features you would like enabled.
 
 
-View the configuration details here!
+View the configuration details [here!](https://github.com/JaydenLyte/Parties/wiki/Configuration)
 
 ---
 
