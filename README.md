@@ -1,5 +1,10 @@
+---
+title: "Parties Mod - Description"
+theme: jekyll-theme-midnight
+---
+
 <p align="center">
-  <img src="/img/main_logo.png" alt="Project Banner" width="100%" />
+  <img src="./img/main_logo.png" alt="Project Banner" width="100%" />
 </p>
 
 ![Downloads](https://img.shields.io/curseforge/dt/358243?logo=curseforge&logoColor=white&color=f16436)
@@ -13,7 +18,7 @@
 
 ---
 
-NOTE: Since v2.0.0, this mod bundles the LyteCore library and Parties: Dynamics. 
+NOTE: Since v2.0.0, this mod bundles the LyteCore library and Parties: Dynamics.
 
 Parties brings a full party system and customizable HUD to your world, built to make both solo and co-op gameplay a lot more fun.
 It tweaks some vanilla mechanics and hooks into other mods so team play actually feels smooth and connected.
@@ -23,7 +28,7 @@ Read on for all the details!
 ---
 
 <p align="center">
-  <img src="/img/title_features.png" alt="Features" width="100%" />
+  <img src="./img/title_features.png" alt="Features" width="100%" />
 </p>
 
 Parties adds a fully customizable, ever-expanding UI system that allows you to customize how you want your party UI to look like.
@@ -32,7 +37,7 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 45%; padding-right: 16px;">
-      <img src="./img/feature_ui.gif" alt="HUD Preview" width="100%" />
+      <img src="../img/feature_ui.gif" alt="HUD Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>Extensive HUD Overlay</h3>
@@ -52,12 +57,12 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
         They can also be disabled if preferring a more minimalist look or emphasis on specific elements.
       </p>
       <p>
-        <img src="./img/feature_minimal.png" alt="Minimal Preview" width="128" align="left" hspace="12" style="margin-right: 12px;" />
+        <img src="../img/feature_minimal.png" alt="Minimal Preview" width="128" align="left" hspace="12" style="margin-right: 12px;" />
         The customized layout can be exported as a file or a string of characters to share with others!
       </p>
     </td>
     <td style="border: none; vertical-align: top; width: 45%; padding-left: 16px;" width="45%" valign="top">
-      <img src="./img/feature_editor.gif" alt="HUD Preview" width="100%" />
+      <img src="../img/feature_editor.gif" alt="HUD Preview" width="100%" />
     </td>
   </tr>
 </table>
@@ -65,7 +70,7 @@ Parties: Dynamics is bundled with this mod as well, which adds or enhances socia
 <table style="border: none; border-collapse: collapse; width: 100%;">
   <tr style="border: none;">
     <td style="border: none; vertical-align: top; width: 45%; padding-right: 16px;">
-      <img src="./img/feature_layout.gif" alt="HUD Preview" width="100%" />
+      <img src="../img/feature_layout.gif" alt="HUD Preview" width="100%" />
     </td>
     <td style="border: none; vertical-align: top; width: 55%;">
       <h3>Full-Fledged Display Configuration</h3>
@@ -199,7 +204,7 @@ All the configuration options are housed within the `minecraft_root/config/parti
 ---
 
 <p align="center">
-  <img src="/img/title_config.png" alt="Configuration Banner" width="100%" />
+  <img src="./img/title_config.png" alt="Configuration Banner" width="100%" />
 </p>
 
 Parties has a ton of customization options, ranging from an extensive layout editor to complete control on what features you would like enabled.
@@ -210,7 +215,7 @@ View the configuration details here!
 ---
 
 <p align="center">
-  <img src="/img/title_support.png" alt="Mod Support" width="100%" />
+  <img src="./img/title_support.png" alt="Mod Support" width="100%" />
 </p>
 
 Older versions of this mod had a different subset of mod compatibility. Starting from 2.0.0, the mod compatibility along with future support is as follows:
@@ -256,7 +261,7 @@ Older versions of this mod had a different subset of mod compatibility. Starting
 
 ---
 <p align="center">
-  <img src="/img/title_faq.png" alt="FAQ Banner" width="100%" />
+  <img src="./img/title_faq.png" alt="FAQ Banner" width="100%" />
 </p>
 
 ### Can I use this mod in a modpack or playthrough?
