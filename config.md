@@ -4,7 +4,7 @@ theme: jekyll-theme-cayman
 ---
 
 <p align="center">
-  <img src="/img/title_config.png" alt="Configuration Banner" width="100%" />
+  <img src="./img/title_config.png" alt="Configuration Banner" width="100%" />
 </p>
 
 Parties has a ton of customization options, ranging from an extensive layout editor to complete control on what features you would like enabled.
