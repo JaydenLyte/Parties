@@ -197,12 +197,12 @@ These are all the integrations planned, being worked on, and implemented since 2
   </tbody>
 </table>
 
+</div>
+
 ### Platform & Version Notes
 
 * **Fabric:** Currently Forge and NeoForge only; Fabric is planned for future updates.
 * **Backports:** No backports planned; development targets modern releases first. After the in-progress mod support is added, a port to 1.21.1 will be released.
-
-</div>
 
 
 ---
