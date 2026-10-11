@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_features.png" alt="Project Banner" />
+  <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/main_logo.png" alt="Project Banner" />
 </p>
 
 <p align="center">
