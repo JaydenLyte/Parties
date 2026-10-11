@@ -207,7 +207,7 @@ These are all the integrations planned, being worked on, and implemented since 2
 
 ---
 
-![Commands](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_commands.png)
+![Commands](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_setup.png)
 
 These are all the commands currently available for the Parties mod. Do note that the /parties prefix can be replaced with /p and /party.
 
