@@ -318,33 +318,38 @@ You can view the full configuration details [here!](https://github.com/JaydenLyt
 ![FAQ](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_faq.png)
 
 <div class="spoiler">
-
-### Can I use this mod in a modpack or playthrough?
-> Of course! Feel free to include this mod in any public or private modpack, server, video, or stream.
-
-### How do I customize or hide the UI?
-> Check out the Configuration section above for full details.
->
-> There are two main editor modes:
-> - Layout: Tweak positions, anchors, and scale.
-> - HUD: Toggle elements on/off and adjust behaviors.
->
-> You can rebind keys for both menus anytime in Minecraft's Options → Controls menu.
-
-### The mod is conflicting with another mod or causing a crash!
-> Please open an issue on the Issue Tracker and attach your crash log (crash-reports or latest.log).
->
-> Mod interactions and rendering quirks are usually pretty quick to fix once there's a log and steps to reproduce it.
-
-### Can you add support for another mod?
-> Drop a suggestion on the Issue Tracker! Let me know which mod you have in mind and how you’d like the two to work together, and I'll see what can be done.
-
-### Is there a Fabric version?
-> Not at the moment. Current focus is locked on Forge and NeoForge, but Fabric is definitely on the radar for later.
-
-### Can you backport to older Minecraft versions?
-> No backports for now. The focus is on keeping things updated and moving forward with modern Minecraft releases first.
-
+  <h3>Can I use this mod in a modpack or playthrough?</h3>
+  <blockquote>
+    <p>Of course! Feel free to include this mod in any public or private modpack, server, video, or stream.</p>
+  </blockquote>
+  <h3>How do I customize or hide the UI?</h3>
+  <blockquote>
+    <p>Check out the Configuration section above for full details.</p>
+    <br/>
+    <p>There are two main editor modes:</p>
+    <p>- Layout: Tweak positions, anchors, and scale.</p>
+    <p>- HUD: Toggle elements on/off and adjust behaviors.</p>
+    <br/>
+    <p>You can rebind keys for both menus anytime in Minecraft's Options → Controls menu.</p>
+  </blockquote>
+  <h3>The mod is conflicting with another mod or causing a crash!</h3>
+  <blockquote>
+    <p>Please open an issue on the Issue Tracker and attach your crash log (crash-reports or latest.log).</p>
+    <br/>
+    <p>Mod interactions and rendering quirks are usually pretty quick to fix once there's a log and steps to reproduce it.</p>
+  </blockquote>
+  <h3>Can you add support for another mod?</h3>
+  <blockquote>
+    <p>Drop a suggestion on the Issue Tracker! Let me know which mod you have in mind and how you’d like the two to work together, and I'll see what can be done.</p>
+  </blockquote>
+  <h3>Is there a Fabric version?</h3>
+  <blockquote>
+    <p>Not at the moment. Current focus is locked on Forge and NeoForge, but Fabric is definitely on the radar for later.</p>
+  </blockquote>
+  <h3>Can you backport to older Minecraft versions?</h3>
+  <blockquote>
+    <p>No backports for now. The focus is on keeping things updated and moving forward with modern Minecraft releases first.</p>
+  </blockquote>
 </div>
 
 Questions? Send me a message! I am reachable on CurseForge :)
