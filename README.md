@@ -27,65 +27,83 @@ Gather your party and conquer your world together! Parties upgrades team play wi
 
 Whether you play alone or with friends, Parties lets you customize your interface to match your style. From tweakable HUD options to built-in party mechanics, here is everything included in the mod so far:
 
+<div class="spoiler">
+
 <table>
   <thead>
     <tr>
-      <th width="22%" align="center">Preview</th>
-      <th>Details</th>
+      <th width="30%" align="center">Preview</th>
+      <th width="70%">Details</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_1.png" alt="HUD Editor Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>HUD Editor</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_1.png" alt="HUD Editor Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">HUD Editor</span><br/><br/>
         Move, scale, anchor, and toggle party or player frames on the fly. Includes grid snapping, alignment guides, and a live preview while you edit.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_2.png" alt="Template Creator Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>Template Creator</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_2.png" alt="Template Creator Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">Template Creator</span><br/><br/>
         Build your own UI templates from scratch. Export setups directly into shareable strings or JSON files to drop into modpacks or send to friends.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_3.png" alt="Modded Elements Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>Modded Elements</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_3.png" alt="Modded Elements Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">Modded Elements</span><br/><br/>
         Shows resource bars from other magic mods automatically, including Iron's Spells cast and mana bars, Ars Nouveau mana, and more.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_4.png" alt="Player Tracking Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>Player Tracking</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_4.png" alt="Player Tracking Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">Player Tracking</span><br/><br/>
         Keep tabs on teammates across long distances and dimensions. Party avatars double as a built-in compass radar, or you can use on-screen edge markers to see where allies are around you.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_5.png" alt="XP Sharing Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>XP Sharing</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_5.png" alt="XP Sharing Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">XP Sharing</span><br/><br/>
         Splits mob XP with nearby party members. Keeps leveling fair during mob farms or dungeon crawls, so supportive and ranged roles don't fall behind.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_6.png" alt="Friendly Fire Protection Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>Friendly Fire Protection</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_6.png" alt="Friendly Fire Protection Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">Friendly Fire Protection</span><br/><br/>
         Stops accidental friendly fire from happening ever again! Protects teammates, pets, summons, leashed mobs, and sweeping edge hits from stray swings.
       </td>
     </tr>
     <tr>
-      <td align="center" style="min-width: 96px;"><img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_7.png" alt="Special Spell Tagging Preview" style="width: 100%; max-width: 180px; height: auto;"/></td>
-      <td>
-        <strong>Special Spell Tagging</strong><br/>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_7.png" alt="Special Spell Tagging Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">Special Spell Tagging</span><br/><br/>
         Keeps offensive spells from locking onto teammates with a new Hostile Spell tag. Attacks, projectiles, and hostile AoE effects won't target allies while friendly fire is turned off, either.
       </td>
     </tr>
   </tbody>
 </table>
+
+</div>
 
 ---
 
@@ -93,13 +111,16 @@ Whether you play alone or with friends, Parties lets you customize your interfac
 
 These are all the integrations planned, being worked on, and implemented since 2.0.0:
 
-<p align="right"><small><strong>Status:</strong> ✅ Implemented &nbsp;•&nbsp; ⏳ In Progress &nbsp;•&nbsp; 📋 Planned</small></p>
+<div class="spoiler">
+
+<p align="right"><strong>Status:</strong> ✅ Implemented &nbsp;•&nbsp; ⏳ In Progress &nbsp;•&nbsp; 📋 Planned</p>
+
 <table>
   <thead>
     <tr>
       <th width="30%">Mod Integration</th>
       <th>Features & Details</th>
-      <th width="7" align="center">🔄</th>
+      <th width="10px" align="center">🔄</th>
     </tr>
   </thead>
   <tbody>
@@ -181,6 +202,8 @@ These are all the integrations planned, being worked on, and implemented since 2
 * **Fabric:** Currently Forge and NeoForge only; Fabric is planned for future updates.
 * **Backports:** No backports planned; development targets modern releases first. After the in-progress mod support is added, a port to 1.21.1 will be released.
 
+</div>
+
 
 ---
 
@@ -188,17 +211,54 @@ These are all the integrations planned, being worked on, and implemented since 2
 
 These are all the commands currently available for the Parties mod. Do note that the /parties prefix can be replaced with /p and /party.
 
-| Command | Description |
-| :--- | :--- |
-| `/parties invite <player>` | Sends a party invite to a player. Invites expire after 60 seconds. |
-| `/parties accept` | Accepts a party invite from a player. If receiving an invitation, you can also click on the respective chat link. |
-| `/parties decline` | Declines the last party invite from a player. Clicking on the respective chat link also allows you to decline a specific invitation as well. |
-| `/parties disband` | Disbands the party you're currently in. Can only be done by the party leader. |
-| `/parties kick <player>` | Removes a player from your current party. If no other players were to remain, it disbands the party instead. Can only be done by the party leader. |
-| `/parties leave` | Leaves your current party. If leader, it passes leadership to someone else. If party would be left with one player, the party disbands instead. |
-| `/parties promote <player>` | Transfers leadership to another player. If the leader is offline, leadership may automatically be transferred depending on settings in parties-common.toml. |
-| `/parties help` | Provides information on how the party system works. |
-| `/partiescfg reload` | Reloads client-side configuration, like from /dimensions/active.json. |
+<div class="spoiler">
+<table>
+  <thead>
+    <tr>
+      <th width="30%">Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>/parties invite <player></code></td>
+      <td>Sends a party invite to a player. Invites expire after 60 seconds.</td>
+    </tr>
+    <tr>
+      <td><code>/parties accept</code></td>
+      <td>Accepts a party invite from a player. If receiving an invitation, you can also click on the respective chat link.</td>
+    </tr>
+    <tr>
+      <td><code>/parties decline</code></td>
+      <td>Declines the last party invite from a player. Clicking on the respective chat link also allows you to decline a specific invitation as well.</td>
+    </tr>
+    <tr>
+      <td><code>/parties disband</code></td>
+      <td>Disbands the party you're currently in. Can only be done by the party leader.</td>
+    </tr>
+    <tr>
+      <td><code>/parties kick <player></code></td>
+      <td>Removes a player from your current party. If no other players were to remain, it disbands the party instead. Can only be done by the party leader.</td>
+    </tr>
+    <tr>
+      <td><code>/parties leave</code></td>
+      <td>Leaves your current party. If leader, it passes leadership to someone else. If party would be left with one player, the party disbands instead.</td>
+    </tr>
+    <tr>
+      <td><code>/parties promote <player></code></td>
+      <td>Transfers leadership to another player. If the leader is offline, leadership may automatically be transferred depending on settings in parties-common.toml.</td>
+    </tr>
+    <tr>
+      <td><code>/parties help</code></td>
+      <td>Provides information on how the party system works.</td>
+    </tr>
+    <tr>
+      <td><code>/partiescfg reload</code></td>
+      <td>Reloads client-side configuration, like from /dimensions/active.json.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ---
 
@@ -206,22 +266,58 @@ These are all the commands currently available for the Parties mod. Do note that
 
 Parties comes bundled with several configuration files ranging from disabling hud features, mod support, to even code hooks for compatibility purposes as well. All the configuration options are housed within the `/config/parties` directory:
 
-| Directory / File Name | Description |
-| :--- | :--- |
-| **`core-common.toml`** | Provides the core Team alliance providers and ownership/damage resolvers. Also dictates the range that "vicinity" means. |
-| **`dynamics-common.toml`** | Contains simple party configuration options, including max party size, automatic leader transfer timers, friendlyfire, and xp sharing configuration. |
-| **`ui-client.toml`** | Contains several client-side rendering options, ranging from radar arrow modifications, UI rendering options, player colorizing, and the HUD Editor button position. |
-| **`/dimensions/active.json` & `known_cache.json`** | Contains the active list that the UI pulls dimension data from, along with the known cache dump of dimensions found in the game. |
-| **`/templates/`** | The root directory of custom template files. These files allow you to create your own unique, sharable frame templates. |
-| **`active_layouts.json`** | This file contains the active frame positioning and layout attachment for the current environment. |
-| **`mixins.properties`** | This file contains options for disabling specific code alterations. The functionality of the Parties mod depends on these changes, so only modify this as a last resort. |
-| **`modules.properties`** | This file contains a list of "addon modules" that are used in the Parties mod. This allows you to toggle any specific mod compatibilities currently made in the Parties mod. |
+<div class="spoiler">
+<table>
+  <thead>
+    <tr>
+      <th width="35%">Directory / File Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong><code>core-common.toml</code></strong></td>
+      <td>Provides the core Team alliance providers and ownership/damage resolvers. Also dictates the range that "vicinity" means.</td>
+    </tr>
+    <tr>
+      <td><strong><code>dynamics-common.toml</code></strong></td>
+      <td>Contains simple party configuration options, including max party size, automatic leader transfer timers, friendlyfire, and xp sharing configuration.</td>
+    </tr>
+    <tr>
+      <td><strong><code>ui-client.toml</code></strong></td>
+      <td>Contains several client-side rendering options, ranging from radar arrow modifications, UI rendering options, player colorizing, and the HUD Editor button position.</td>
+    </tr>
+    <tr>
+      <td><strong><code>/dimensions/active.json</code> &amp; <code>known_cache.json</code></strong></td>
+      <td>Contains the active list that the UI pulls dimension data from, along with the known cache dump of dimensions found in the game.</td>
+    </tr>
+    <tr>
+      <td><strong><code>/templates/</code></strong></td>
+      <td>The root directory of custom template files. These files allow you to create your own unique, sharable frame templates.</td>
+    </tr>
+    <tr>
+      <td><strong><code>active_layouts.json</code></strong></td>
+      <td>This file contains the active frame positioning and layout attachment for the current environment.</td>
+    </tr>
+    <tr>
+      <td><strong><code>mixins.properties</code></strong></td>
+      <td>This file contains options for disabling specific code alterations. The functionality of the Parties mod depends on these changes, so only modify this as a last resort.</td>
+    </tr>
+    <tr>
+      <td><strong><code>modules.properties</code></strong></td>
+      <td>This file contains a list of "addon modules" that are used in the Parties mod. This allows you to toggle any specific mod compatibilities currently made in the Parties mod.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
- You can view the full configuration details [here!](https://github.com/JaydenLyte/Parties/wiki/Configuration) It also includes a detailed description on each of the editors to help configure that as well.
+You can view the full configuration details [here!](https://github.com/JaydenLyte/Parties/wiki/Configuration) It also includes a detailed description on each of the editors to help configure that as well.
 
 ---
 
 ![FAQ](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_faq.png)
+
+<div class="spoiler">
 
 ### Can I use this mod in a modpack or playthrough?
 > Of course! Feel free to include this mod in any public or private modpack, server, video, or stream.
@@ -248,5 +344,7 @@ Parties comes bundled with several configuration files ranging from disabling hu
 
 ### Can you backport to older Minecraft versions?
 > No backports for now. The focus is on keeping things updated and moving forward with modern Minecraft releases first.
+
+</div>
 
 Questions? Send me a message! I am reachable on CurseForge :)
