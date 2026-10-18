@@ -16,7 +16,7 @@ Gather your party and conquer your world together! Parties upgrades team play wi
 
 ### Key Highlights:
 
-- Fully Customizable HUD: Move, scale, toggle, and theme player and party frames.
+- Fully Customizable HUD: Move, scale, toggle, and customize player and party frames.
 - Template Sharing: Export and import custom templates via files or character strings.
 - Party Dynamics: Adds XP sharing, friendly-fire protection, spell tagging, location tracking, and more.
 - Mod Compatibility: Integrated support for several popular mods, with more to come!
@@ -25,7 +25,7 @@ Gather your party and conquer your world together! Parties upgrades team play wi
 
 ![Features](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_features.png)
 
-Whether you play alone or with friends, Parties lets you customize your interface to match your style. From tweakable HUD options to built-in party mechanics, here is everything included in the mod so far:
+Whether you play alone or with friends, Parties lets you customize your interface to match your style. From various HUD settings to built-in party mechanics, here is everything included in the mod so far:
 
 <div class="spoiler">
 
@@ -61,7 +61,7 @@ Whether you play alone or with friends, Parties lets you customize your interfac
       </td>
       <td style="vertical-align: middle;">
         <span style="font-size: 1.25em; font-weight: bold;">Modded Elements</span><br/><br/>
-        Shows resource bars from other magic mods automatically, including Iron's Spells cast and mana bars, Ars Nouveau mana, and more.
+        Shows resource bars from other magic mods automatically, including Iron's Spells cast and mana bars, Ars Nouveau mana, and more, all of which can be customized extensively.
       </td>
     </tr>
     <tr>
@@ -70,7 +70,7 @@ Whether you play alone or with friends, Parties lets you customize your interfac
       </td>
       <td style="vertical-align: middle;">
         <span style="font-size: 1.25em; font-weight: bold;">Player Tracking</span><br/><br/>
-        Keep tabs on teammates across long distances and dimensions. Party avatars double as a built-in compass radar, or you can use on-screen edge markers to see where allies are around you.
+        Keep tabs on teammates across long distances and dimensions. Party avatars also function as a built-in compass radar, or you can use on-screen edge markers to see where allies are around you.
       </td>
     </tr>
     <tr>
@@ -88,7 +88,7 @@ Whether you play alone or with friends, Parties lets you customize your interfac
       </td>
       <td style="vertical-align: middle;">
         <span style="font-size: 1.25em; font-weight: bold;">Friendly Fire Protection</span><br/><br/>
-        Stops accidental friendly fire from happening ever again! Protects teammates, pets, summons, leashed mobs, and sweeping edge hits from stray swings.
+        Stops accidental friendly fire from happening ever again! Protects teammates, pets, summons, leashed mobs, and other damage hits from stray swings.
       </td>
     </tr>
     <tr>
@@ -97,7 +97,16 @@ Whether you play alone or with friends, Parties lets you customize your interfac
       </td>
       <td style="vertical-align: middle;">
         <span style="font-size: 1.25em; font-weight: bold;">Special Spell Tagging</span><br/><br/>
-        Keeps offensive spells from locking onto teammates with a new Hostile Spell tag. Attacks, projectiles, and hostile AoE effects won't target allies while friendly fire is turned off, either.
+        Keeps offensive spells from locking onto teammates with a new Hostile Spell tag. Attacks, projectiles, and hostile status effects won't affect allies while friendly fire is turned off.
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="width: 30%; max-width: 256px; min-width: 96px; vertical-align: middle;">
+        <img src="https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/feature/feature_8.png" alt="In-Game Tutorial Preview" style="width: 100%; max-width: 256px; height: auto; display: block;"/>
+      </td>
+      <td style="vertical-align: middle;">
+        <span style="font-size: 1.25em; font-weight: bold;">In-Game Tutorial</span><br/><br/>
+        The /party help menu has been completely overhauled with a new informational window. It features clear guides on templates, frame and party settings, plus visual tutorial sequences to help you get started.
       </td>
     </tr>
   </tbody>
@@ -126,12 +135,12 @@ These are all the integrations planned, being worked on, and implemented since 2
   <tbody>
     <tr>
       <td><strong>Iron's Spells<br/>v1.20.1-3.4.0.9+</strong></td>
-      <td>Cast Bar, Mana Bar and friendly-fire spell projectile/summons integration.</td>
+      <td>Cast Bar, Mana Bar and friendly-fire spell and summon support.</td>
       <td align="center" style="font-size: 1.1em;">✅</td>
     </tr>
     <tr>
       <td><strong>Ars Nouveau</strong></td>
-      <td>Mana Bar</td>
+      <td>Mana Bar, friendly-fire summon and familiar support.</td>
       <td align="center" style="font-size: 1.1em;">✅</td>
     </tr>
     <tr>
@@ -212,106 +221,108 @@ These are all the integrations planned, being worked on, and implemented since 2
 These are all the commands currently available for the Parties mod. Do note that the /parties prefix can be replaced with /p and /party.
 
 <div class="spoiler">
+
 <table>
   <thead>
     <tr>
       <th width="30%">Command</th>
-      <th>Description</th>
+      <th width="70%">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><code>/parties invite <player></code></td>
-      <td>Sends a party invite to a player. Invites expire after 60 seconds.</td>
+      <td style="vertical-align: top;"><strong>/parties invite 'player'</strong></td>
+      <td style="vertical-align: top;">Sends a party invite to a player. Invites expire after 60 seconds.</td>
     </tr>
     <tr>
-      <td><code>/parties accept</code></td>
-      <td>Accepts a party invite from a player. If receiving an invitation, you can also click on the respective chat link.</td>
+      <td style="vertical-align: top;"><strong>/parties accept</strong></td>
+      <td style="vertical-align: top;">Accepts a party invite from a player. If receiving an invitation, you can also click on the respective chat link.</td>
     </tr>
     <tr>
-      <td><code>/parties decline</code></td>
-      <td>Declines the last party invite from a player. Clicking on the respective chat link also allows you to decline a specific invitation as well.</td>
+      <td style="vertical-align: top;"><strong>/parties decline</strong></td>
+      <td style="vertical-align: top;">Declines the last party invite from a player. Clicking on the respective chat link also allows you to decline a specific invitation as well.</td>
     </tr>
     <tr>
-      <td><code>/parties disband</code></td>
-      <td>Disbands the party you're currently in. Can only be done by the party leader.</td>
+      <td style="vertical-align: top;"><strong>/parties disband</strong></td>
+      <td style="vertical-align: top;">Disbands the party you're currently in. Can only be done by the party leader.</td>
     </tr>
     <tr>
-      <td><code>/parties kick <player></code></td>
-      <td>Removes a player from your current party. If no other players were to remain, it disbands the party instead. Can only be done by the party leader.</td>
+      <td style="vertical-align: top;"><strong>/parties kick 'player'</strong></td>
+      <td style="vertical-align: top;">Removes a player from your current party. If no other players were to remain, it disbands the party instead. Can only be done by the party leader.</td>
     </tr>
     <tr>
-      <td><code>/parties leave</code></td>
-      <td>Leaves your current party. If leader, it passes leadership to someone else. If party would be left with one player, the party disbands instead.</td>
+      <td style="vertical-align: top;"><strong>/parties leave</strong></td>
+      <td style="vertical-align: top;">Leaves your current party. If leader, it passes leadership to someone else. If party would be left with one player, the party disbands instead.</td>
     </tr>
     <tr>
-      <td><code>/parties promote <player></code></td>
-      <td>Transfers leadership to another player. If the leader is offline, leadership may automatically be transferred depending on settings in parties-common.toml.</td>
+      <td style="vertical-align: top;"><strong>/parties promote 'player'</strong></td>
+      <td style="vertical-align: top;">Transfers leadership to another player. If the leader is offline, leadership may automatically be transferred depending on settings in parties-common.toml.</td>
     </tr>
     <tr>
-      <td><code>/parties help</code></td>
-      <td>Provides information on how the party system works.</td>
+      <td style="vertical-align: top;"><strong>/parties help</strong></td>
+      <td style="vertical-align: top;">Provides very detailed information on how the party system and hud editor works. Brings up a window that shows several informational tabs along with launching several tutorial sequences.</td>
     </tr>
     <tr>
-      <td><code>/partiescfg reload</code></td>
-      <td>Reloads client-side configuration, like from /dimensions/active.json.</td>
+      <td style="vertical-align: top;"><strong>/pclient reload</strong></td>
+      <td style="vertical-align: top;">Reloads client-side configuration, like from config/dimensions/active.json.</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><strong>/pclient import 'frame' 'template_code'</strong></td>
+      <td style="vertical-align: top;">Imports a preset from your clipboard with an automatic name and attaches it to the chosen frame.</td>
     </tr>
   </tbody>
 </table>
+
 </div>
 
 ---
 
 ![Configuration](https://cdn.jsdelivr.net/gh/JaydenLyte/Parties@main/img/title_config.png)
 
-Parties comes bundled with several configuration files ranging from disabling hud features, mod support, to even code hooks for compatibility purposes as well. All the configuration options are housed within the `/config/parties` directory:
+Parties comes bundled with several configuration files ranging from hud and mod support toggles to hook toggles for better compatibility. All the configuration options are located within the `/config/parties` directory:
 
 <div class="spoiler">
+
 <table>
   <thead>
     <tr>
       <th width="35%">Directory / File Name</th>
-      <th>Description</th>
+      <th width="65%">Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong><code>core-common.toml</code></strong></td>
-      <td>Provides the core Team alliance providers and ownership/damage resolvers. Also dictates the range that "vicinity" means.</td>
+      <td style="vertical-align: top;"><strong><u>core-common.toml</u></strong></td>
+      <td style="vertical-align: top;">Provides the core Team alliance providers and ownership/damage resolvers. Also dictates the meter range that "vicinity" means. Vicinity range is used in several other settings.</td>
     </tr>
     <tr>
-      <td><strong><code>dynamics-common.toml</code></strong></td>
-      <td>Contains simple party configuration options, including max party size, automatic leader transfer timers, friendlyfire, and xp sharing configuration.</td>
+      <td style="vertical-align: top;"><strong><u>dynamics-common.toml</u></strong></td>
+      <td style="vertical-align: top;">Contains party configuration options which include max party size, automatic leader transfer timers, friendly-fire, and xp sharing.</td>
     </tr>
     <tr>
-      <td><strong><code>ui-client.toml</code></strong></td>
-      <td>Contains several client-side rendering options, ranging from radar arrow modifications, UI rendering options, player colorizing, and the HUD Editor button position.</td>
+      <td style="vertical-align: top;"><strong><u>ui-client.toml</u></strong></td>
+      <td style="vertical-align: top;">Contains several client-side rendering options, ranging from radar arrow modifications, UI rendering options, player colorizing settings, and the main menu button position.</td>
     </tr>
     <tr>
-      <td><strong><code>/dimensions/active.json</code> &amp; <code>known_cache.json</code></strong></td>
-      <td>Contains the active list that the UI pulls dimension data from, along with the known cache dump of dimensions found in the game.</td>
+      <td style="vertical-align: top;"><strong><u>/dimensions/active.json</u> &amp; <u>known_cache.json</u></strong></td>
+      <td style="vertical-align: top;">Contains the active list that the UI grabs dimension data from  along with a dump of all dimensions found in the game.</td>
     </tr>
     <tr>
-      <td><strong><code>/templates/</code></strong></td>
-      <td>The root directory of custom template files. These files allow you to create your own unique, sharable frame templates.</td>
+      <td style="vertical-align: top;"><strong><u>/templates/</u></strong></td>
+      <td style="vertical-align: top;">The root directory of custom template files. These files allow you to store and share your own unique frame templates.</td>
     </tr>
     <tr>
-      <td><strong><code>active_layouts.json</code></strong></td>
-      <td>This file contains the active frame positioning and layout attachment for the current environment.</td>
+      <td style="vertical-align: top;"><strong><u>active_layouts.json</u></strong></td>
+      <td style="vertical-align: top;">Contains the active frame positioning and template attachment for the current environment.</td>
     </tr>
     <tr>
-      <td><strong><code>mixins.properties</code></strong></td>
-      <td>This file contains options for disabling specific code alterations. The functionality of the Parties mod depends on these changes, so only modify this as a last resort.</td>
-    </tr>
-    <tr>
-      <td><strong><code>modules.properties</code></strong></td>
-      <td>This file contains a list of "addon modules" that are used in the Parties mod. This allows you to toggle any specific mod compatibilities currently made in the Parties mod.</td>
+      <td style="vertical-align: top;"><strong><u>modules.properties</u></strong></td>
+      <td style="vertical-align: top;">Contains a list of compatibility modules and other hooks that are used in the Parties mod. This allows you to toggle any features and compatibilities present in the Parties mod.</td>
     </tr>
   </tbody>
 </table>
-</div>
 
-You can view the full configuration details [here!](https://github.com/JaydenLyte/Parties/wiki/Configuration) It also includes a detailed description on each of the editors to help configure that as well.
+</div>
 
 ---
 
